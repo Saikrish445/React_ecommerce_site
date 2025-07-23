@@ -1,0 +1,32 @@
+/* App.css */
+
+.navbar {
+  padding: 10px;
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.navbar button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.app-body {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--body-bg);
+  color: var(--body-text);
+}

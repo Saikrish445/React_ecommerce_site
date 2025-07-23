@@ -1,0 +1,28 @@
+.wishlist-container {
+  padding: 20px;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.wishlist-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.wishlist-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+}
+
+.wishlist-empty {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
